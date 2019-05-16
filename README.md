@@ -48,3 +48,7 @@ If you want to use the Sonoff module with the MQTT protocol, config it like this
 **Password:** User password  
 **Topic:** Unique topic name _(same as the Identifier in Gladys)_  
 **Full Topic:** Leave %prefix%/%topic%/
+
+"dependencies": {
+  "mqtt": "^2.14.0"
+}
